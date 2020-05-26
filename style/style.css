@@ -1,0 +1,568 @@
+@import 'fonts.css';
+
+
+/* ROOT START */
+:root{
+    --RB: 'Roboto Bold';
+    --RR: 'Roboto Regular';
+    --DR: 'DaysOne Regular';
+    --RL: 'Roboto Light';
+    --black: #000;
+    --light_blue: #2b6ccd;
+    --grey: #676767;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--white);
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p 
+img {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+h1,
+h2,
+h3{
+    font-family: var(--RB);
+}
+p{
+    font-family: var(--RR);
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--light_blue);
+}
+/* ROOT END */
+/* HEADER START */
+
+.header{
+    background: url(../img/header_img.png) no-repeat center center /cover;
+    background-attachment: fixed;
+    
+}
+
+.logo{
+    padding: 23px 0;
+}
+.header__nav-button{
+    color: var(--light_blue);
+}
+.header__nav-link{
+    color: var(--white);
+    margin-left: 41px;
+    font-size: 16px;
+    font-family: var(--RR);
+}
+.header__nav-link:hover{
+    color: var(--light_blue);
+    transition: 0.5s;
+}
+
+
+
+
+/* HEADER END */
+
+
+/* MAIN START */
+
+.winter__sneakers-title{
+    margin: 100px 0;
+    color: var(--light_blue);
+    font-size: 30px;
+}
+.winter__sneakers-images1{
+    margin-bottom: 30px;
+}
+.winter__sneakers-img1, .winter__sneakers-img2, .winter__sneakers-img3, .winter__sneakers-img5, .winter__sneakers-img6, .winter__sneakers-img7, .winter__sneakers-img8{
+   margin-right: 0;
+}
+.winter__sneakers-img1, .winter__sneakers-img2, .winter__sneakers-img3, .winter__sneakers-img4, .winter__sneakers-img5, .winter__sneakers-img6, .winter__sneakers-img7, .winter__sneakers-img8{
+    position: relative;
+   
+}
+.winter__sneakers-about, .winter__sneakers-desc{
+    position: absolute;
+    bottom: 0;
+    
+}
+.winter__sneakers-about{
+    bottom: 54px;
+    margin-left: 26px;
+    font-size: 20px;
+    color: var(--light_blue);
+}
+.price{
+    margin-left: 46px;
+    font-size: 20px;
+}
+.winter__sneakers-desc{
+    margin-left: 26px;
+    font-size: 16px;
+}
+.summer__sneakers-title{
+    color: var(--light_blue);
+    font-size: 30px;
+    margin-top: 100px;
+}
+.summer__sneakers-images1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.summer__sneakers-img1, .summer__sneakers-img2, .summer__sneakers-img3, .summer__sneakers-img5, .summer__sneakers-img6, .summer__sneakers-img7, .summer__sneakers-img8{
+    margin-right: 0;
+}
+.summer__sneakers-img1, .summer__sneakers-img2, .summer__sneakers-img3, .summer__sneakers-img4, .summer__sneakers-img5, .summer__sneakers-img6, .summer__sneakers-img7, .summer__sneakers-img8{
+    position: relative;
+}
+.summer__sneakers-about, .summer__sneakers-desc {
+    position: absolute;
+    bottom: 0;
+}
+.summer__sneakers-about{
+    bottom: 54px;
+    margin-left: 26px;
+    font-size: 20px;
+    color: var(--light_blue);
+}
+.summer__sneakers-desc{
+    margin-left: 26px;
+    font-size: 16px;
+}
+.line{
+    background: #dadada;
+    width: 100%;
+    height: 1px;
+    margin-top: 100px;
+}
+.adidas__about-title{
+    margin: 84px 0 40px;
+    color: var(--light_blue);
+    text-transform: uppercase;
+    font-family: var(--DR);
+    font-size: 30px;
+}
+.adidas__about-desc{
+    color: var(--grey);
+    font-size: 18px;
+}
+.line2{
+    background: #dadada;
+    width: 100%;
+    height: 1px;
+}
+.adidas__about-img{
+    object-fit: cover;
+}
+.main__product-title{
+    color: var(--light_blue);
+    margin: 100px 0;
+    font-size: 30px;
+}
+.main__product-chapter{
+    color: var(--light_blue);
+    margin: 50px 0 54px;
+    font-size: 30px;
+}
+.main__product-desc{
+    color: var(--grey);
+    line-height: 33px;
+    font-size: 18px;
+}
+.btn{
+    border: 1px solid #2b6ccd;
+    padding: 17px 59px;
+    color: var(--light_blue);
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: var(--RL);
+}
+.btn:hover{
+    color: var(--light_blue);
+}
+.main__contacts{
+    background: #f8f8f8;
+    margin-top: 97px;
+}
+.main__contacts-title, .main__contacts-title1{
+    padding: 100px 0 57px;
+    color: var(--light_blue);
+    font-size: 30px;
+}
+.main__contacts-input0, .main__contacts-input1, .main__contacts-input2{
+    margin-bottom: 28px;
+}
+.main__contacts-input{
+    width: 349px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: var(--RR);
+    font-size: 16px;
+    padding-left: 15px;
+    outline: none;
+    background: #f8f8f8;
+}
+.main__contacts-text{
+    width: 349px;
+    height: 130px;
+    color: var(--grey);
+    font-family: var(--RR);
+    font-size: 16px;
+    padding-top: 22px;
+    padding-left: 15px;
+    outline: none;
+    background: #f8f8f8;
+    border: 1px solid #000;
+}
+.contacts-title{
+    font-size: 16px;
+    color: var(--grey);
+}
+.contacts-desc{
+    font-size: 16px;
+    color: var(--grey);
+}
+.main__contacts-send{
+    width: 349px;
+    background: var(--light_blue);
+    height: 30px;
+    margin-top: 10px;
+}
+.send{
+    color: var(--white);
+    padding: 13px 135px;
+}
+.contacts-desc{
+    margin-bottom: 32px;
+}
+/* MAIN END */
+
+/* FOOTER START */
+
+
+.nav{
+    padding:100px 0 54px ;
+}
+.items__link{
+    color: var(--black);
+    font-family: var(--RR);
+    font-size: 18px;
+}
+.items__link:hover{
+    color: var(--black);
+}
+.footer__text{
+    font-size: 18px;
+}
+.footer__text-link{
+    font-size: 18px;
+    font-family: var(--RR);
+}
+.footer__text-link:hover{
+    color: var(--light_blue);
+}
+
+
+/* FOOTER END */
+
+/* MEDIA START */
+
+@media (max-width: 1200px){
+    .winter__sneakers-images1, .winter__sneakers-images2, .summer__sneakers-images1, .summer__sneakers-images2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .winter__sneakers-img4, .summer__sneakers-img4{
+        margin-top: 20px;
+        margin-left: 322px;
+    }
+    .winter__sneakers-img8, .summer__sneakers-img8{
+        margin-top: 20px;
+        margin-left: 322px;
+    }
+    .main__product-right{
+        margin-left: 20px;
+        bottom: 40px;
+    }
+
+}
+
+@media (max-width: 990px){
+    .winter__sneakers-img4,
+    .winter__sneakers-img8,  .summer__sneakers-img4,  .summer__sneakers-img8{
+        margin-left: 0;
+    }
+    .winter__sneakers-img3, .winter__sneakers-img7, .summer__sneakers-img3, .summer__sneakers-img7{
+        margin-top: 20px;
+    }
+    .adidas__about-title{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .adidas__about-desc{
+        font-size: 12px;
+        margin-right: 10px;
+        margin-top: 70px;
+        width: 250px;
+    }
+    .main__product-chapter{
+        margin-bottom: 10px;
+    }
+    .main__product-desc{
+        font-size: 15px;
+    }
+    .main__contacts-right{
+        margin-left: 100px;
+    }
+    .main__contacts-title, .main__contacts-title1{
+        font-size: 20px;
+    }
+    .contacts-title{
+        font-size: 15px;
+    }
+    .contacts-desc{
+        font-size: 12px;
+        margin-bottom: 27px;
+    }
+   .main__contacts-input, .main__contacts-text{
+       font-size: 12px;
+   }
+   .items__link{
+       font-size: 15px;
+   }
+   .adidas__about-img{
+       width: 100%;
+   }
+}
+@media (max-width: 880px){
+    .main__product-img{
+        width: 100%;
+        
+    }
+    .main__product-chapter{
+        font-size: 20px;
+    }
+    .main__product-desc{
+        font-size: 12px;
+    }
+    .btn{
+        font-size: 12px;
+        margin-top: 5px;
+        padding: 5px 15px;
+    }
+}
+ @media (max-width: 765px){
+     .winter__sneakers-images1, .winter__sneakers-images2, .summer__sneakers-images1, .summer__sneakers-images2{
+         margin-left: 150px;
+     }
+     .winter__sneakers-title, .summer__sneakers-title, .main__product-title{
+         font-size: 25px;
+         margin-top: 80px;
+     }
+     .winter__sneakers-img2, .winter__sneakers-img6, .summer__sneakers-img2, .summer__sneakers-img6{
+         margin-top: 20px;
+     }
+     .adidas__about-img{
+         margin-top: 30%;
+     }
+     .adidas__about-desc{
+         margin-top: 20px;
+     }
+     .main__product-img{
+        margin-top: 5px;
+
+     }
+     .main__product-chapter{
+         font-size: 15px;
+         
+     }
+     .main__product-desc{
+         font-size: 10px;
+         line-height: 20px;
+         margin-bottom: 2px;
+     }
+     .main__product-title{
+         margin-bottom: 50px;
+     }
+    .main__contacts-input, .main__contacts-text, .main__contacts-send{
+        width: 250px;
+    }
+    .main__contacts-text{
+        height: 100px;
+    }
+    .send{
+        padding: 13px 130px 13px 90px;
+    }
+    .main__contacts-title1{
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    .contacts-title{
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .contacts-desc{
+        margin-left: 20px;
+        margin-bottom: 12px;
+        font-size: 8px;
+    }
+    .items__link{
+        font-size: 12px;
+    }
+    .footer__text{
+        font-size: 12px;
+    }
+    .footer__text-link{
+        font-size: 14px;
+    }
+   
+ }
+ @media (max-width: 520px){
+     .winter__sneakers-title, .summer__sneakers-title{
+         font-size: 20px;
+         margin-top: 50px;
+         margin-bottom: 50px;
+     }
+     .winter__sneakers-about, .summer__sneakers-about{
+         font-size: 15px;
+     }
+     .winter__sneakers-desc, .summer__sneakers-desc{
+         font-size: 12px;
+     }
+     .summer__sneakers-images1{
+         margin-top: 20px;
+     }
+     .adidas__about-title{
+         font-size: 15px;
+     }
+     .adidas__about-desc{
+         font-size: 10px;
+     }
+     .adidas__about-img{
+         margin-top: 30px;
+     }
+     .main__product-title{
+         font-size: 20px;
+         margin-top: 50px;
+     }
+     .items__link{
+         font-size: 10px;
+     }
+ }
+ @media (max-width: 490px){
+    .winter__sneakers-images1, .winter__sneakers-images2, .summer__sneakers-images1, .summer__sneakers-images2{
+        margin-left: 100px;
+    }
+    .adidas__about-title{
+        margin-top: 10px;
+    }
+    .adidas__about-img{
+        margin-top: 15px;
+    }
+    .main__product-img{
+        margin-top: 40px;
+    }
+    .main__contacts{
+        margin-top: 40px;
+    }
+    .main__contacts-title, .main__contacts-title1{
+        padding-top: 30px;
+        
+    }
+    .main__contacts-right{
+        margin-left: 5px;
+
+    }
+    .main__contacts-input, .main__contacts-text{
+        width: 200px;
+        font-size: 10px;
+    }
+    .main__contacts-text{
+        height: 70px;
+    }
+    .main__contacts-send{
+        width: 200px;
+    }
+    .send{
+        padding-left: 60px;
+    }
+   
+    
+ }
+ @media (max-width: 460px){
+    .winter__sneakers-title, .summer__sneakers-title{
+        font-size: 15px;
+    }
+   .winter__sneakers-images1, .winter__sneakers-images2, .summer__sneakers-images1, .summer__sneakers-images2{
+       margin-left: 50px;
+   }
+   .winter__sneakers-about, .summer__sneakers-about{
+       font-size: 12px;
+   }
+   .winter__sneakers-desc, .summer__sneakers-desc{
+       font-size: 8px;
+   }
+   .adidas__about-title{
+       font-size: 10px;
+       
+   }
+   .adidas__about-desc{
+       font-size: 8px;
+   }
+   .adidas__about-img{
+       margin-top: 10px;
+   }
+   .main__product-title{
+       font-size: 15px;
+   }
+   .main__product-chapter{
+       font-size: 10px;
+   }
+   .main__product-desc{
+       font-size: 8px;
+   }
+   .btn{
+       font-size: 8px;
+   }
+   .main__product-img{
+       margin-top: 17px;
+   }
+   .main__contacts-title, .main__contacts-title1{
+       font-size: 15px;
+   }
+   .main__contacts-input, .main__contacts-text, .main__contacts-send{
+       width: 150px;
+       font-size: 8px;
+   }
+   .send{
+       padding:  50px ;
+       font-size: 10px;
+   }
+   .contacts-desc{
+       padding-top: 10px;
+   }
+   .items__link{
+       font-size: 8px;
+   }
+ }
+
+
+
+/* MEDIA END */
